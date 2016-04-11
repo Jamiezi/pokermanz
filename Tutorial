@@ -1,2 +1,16 @@
 //I'm doing this so that you'll be able to help me out with the scripting.
 //The "//"'s indicate comments, READ THEM.
+
+
+***************************************************************Normal Message Box***************************************************************
+#dynamic 0x(FSF Offset) //Make sure this is on the top of every script.
+#org @start //Make sure this is on the top of every script.
+lock //Locks player in place, canceling all button inputs.
+faceplayer //Makes the NPC face the player.
+msgbox @1 0x6 //Displays a message box
+release //Releases the player, allowing them to move.
+end //Ends the script.
+
+#org @1 // @1 is the ID for this message. To add a new message/event, Just add 1 to the last #, @2... @3... @4, etc. This number is used to call it, such as line 10
+= Hi.\nUr mum sux. //Alright, \n makes it go to the next line, only use this once per window, since a msg box can only display 2 lines per window
+************************************************************************************************************************************************
