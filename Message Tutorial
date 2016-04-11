@@ -14,3 +14,9 @@ end //Ends the script.
 #org @1 // @1 is the ID for this message. To add a new message/event, Just add 1 to the last #, @2... @3... @4, etc. This number is used to call it, such as line 10
 = Hi.\nUr mum sux. //Alright, \n makes it go to the next line, only use this once per window, since a msg box can only display 2 lines per window
 ************************************************************************************************************************************************
+
+
+***************************************************************Message addons***************************************************************
+//You can add things like color, and stuff to messages with these:
+      \c = Color, example: \c\h01\h02You received a Pokémon! (This will show up in black text.)
+      Color codes:
