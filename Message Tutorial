@@ -3,8 +3,8 @@
 
 
 ***************************************************************Normal Message Box***************************************************************
-#dynamic 0x(FSF Offset) //Make sure this is on the top of every script.
-#org @start //Make sure this is on the top of every script.
+#dynamic 0x(FSF Offset)
+#org @start
 lock //Locks player in place, canceling all button inputs.
 faceplayer //Makes the NPC face the player.
 msgbox @1 0x6 //Displays a message box
