@@ -7,7 +7,7 @@
 #org @start
 lock //Locks player in place, canceling all button inputs.
 faceplayer //Makes the NPC face the player.
-msgbox @1 0x6 //Displays a message box
+msgbox @1 0x6 //Displays a message box the 0x6 is the type of message box.
 release //Releases the player, allowing them to move.
 end //Ends the script.
 
